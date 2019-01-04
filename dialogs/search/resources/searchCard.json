@@ -1,0 +1,66 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "speak": "The Seattle Seahawks beat the Carolina Panthers 40-7",
+    "body": [
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://sp.yimg.com/ib/th?id=OIP.RV9kOR4msGQFWKRxG0Jq5gHaEo&pid=15.1&rs=1&c=1&qlt=95&w=160&h=100",
+                    "size": "medium"
+                  },
+                    {
+                    "type": "TextBlock",
+                    "text": "Seagull",
+                    "horizontalAlignment": "center",
+                    "weight": "bolder"
+                  },
+                  {
+                    "type": "Image",
+                    "url": "https://sp.yimg.com/ib/th?id=OIP.DIPBeKPEPtZJatkrtRJDCQHaFj&pid=15.1&rs=1&c=1&qlt=95&w=134&h=100",
+                    "size": "medium"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "Seagull facts",
+                    "horizontalAlignment": "center",
+                    "weight": "bolder"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "separator": true,
+                "spacing": "medium",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "This gull is a coastal bird found in the \n north Pacific, north Atlantic, Scandinavia, and \n Europe.They breed in large, \n noisy colonies on cliffs.",
+                    "horizontalAlignment": "center"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "\n\n\n Seagull is a type of sea bird. There are over \n 20 species of seagulls that can be \n found all over the planet \n(even on the Arctic and Antarctica).",
+                    "horizontalAlignment": "center"
+                  }
+                ]
+              }
+              
+            ]
+          }
+        ]
+      }
+    ]
+  }
+ 

@@ -1,0 +1,50 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "speak": "The Seattle Seahawks beat the Carolina Panthers 40-7",
+    "body": [
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "http://adaptivecards.io/content/cats/3.png",
+                    "size": "medium"
+                  },
+                    {
+                    "type": "TextBlock",
+                    "text": "TENNIS",
+                    "horizontalAlignment": "center",
+                    "weight": "bolder"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "separator": true,
+                "spacing": "medium",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Thompson J. De Minaur A \n 0-0  1st Set \n Donskoy E. Karlovic I \n 0-0  1st Set \n Niculescu M. Pliskova Kr \n 0-1  2nd Set \n  Barty A. Muguruza  \n 0-0  1st Set \n Gulbis E. Chung H \n 0-0  1st Set \n Delbonis F. Sem Verbeem\n  2-0  3rd Set \n Barthel M. Goerges J\n 0-1  2nd Set\n Medvedev D. Murray A\n 1-0  2nd Set \n Han X. Krawczyk D\n 0-0  1st Set\n Xinyu Wang Sharapova M\n 1-0  P1ret",
+                    "horizontalAlignment": "center"
+                  }
+                ]
+              }
+              
+            ]
+          }
+        ]
+      }
+    ]
+  }
+ 

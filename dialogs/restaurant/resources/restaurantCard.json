@@ -1,0 +1,60 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "speak": "Dominos Pizza is a Pizza restaurant which is rated 9.3 by customers.",
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "width": 2,
+            "items": [
+              {
+                "type": "TextBlock",
+                "text": "PIZZA"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Dominos pizza",
+                "weight": "bolder",
+                "size": "extraLarge",
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "4.2 ★★★☆ (93) · $$",
+                "isSubtle": true,
+                "spacing": "none"
+              },
+              {
+                "type": "TextBlock",
+                "text": "Get 2 Regular Pizzas @₹99 each under Everyday Value offer. Available Everyday. Softer Crust. Delicious Sides. Buttery Crispy Dough. Exciting Offers. Hot & Fresh Pizzas. More Toppings. Types: Cheese Burst, Garlic Bread, Cheese Dip, Pizza Mania, Farmhouse Pizza, Wheat Thin Crust.",
+                "size": "small",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "Column",
+            "width": 1,
+            "items": [
+              {
+                "type": "Image",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2000px-Dominos_pizza_logo.svg.png",
+                "size": "auto"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.OpenUrl",
+        "title": "More Info",
+        "url": "https://pizzaonline.dominos.co.in/?src=adbrand&gclid=Cj0KCQiAsJfhBRCaARIsAO68ZM5MLgT2ERII0Vp-ZqsdH3rCBZ7NKl1tXVQXUSkdTRc6C_3EMHeI_4caAlMOEALw_wcB"
+      }
+    ]
+}
